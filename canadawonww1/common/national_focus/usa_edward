@@ -1,0 +1,49 @@
+#rapproachment tree
+focus_tree = {
+	id = usa_edward_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = USA
+		}
+	}
+focus = {
+	id = USA_truman
+	icon = GFX_goal_generic_propaganda
+	prerequisite = { focus = }
+	mutually_exclusive = { focus =  }
+	x = 5
+	y = 0
+	cost = 0
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+        
+	}
+		
+	bypass = {
+        
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+    
+	}
+
+	completion_reward = {
+     
+	}
+}
